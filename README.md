@@ -1,26 +1,9 @@
 <div align="center"><img width="150" src="src/assets/logo.png" /></div>
-<h1 align="center">kutt-extension</h1>
-<p align="center">Browser extension to shorten long URLs based on <a href="https://kutt.it">Kutt.it</a></p>
+<h1 align="center">kutt-desktop</h1>
+<p align="center">Cross platform desktop app to shorten long URLs based on <a href="https://kutt.it">Kutt.it</a></p>
 
 <div align="center">
-  <a href="https://travis-ci.org/abhijithvijayan/kutt-extension">
-    <img src="https://travis-ci.org/abhijithvijayan/kutt-extension.svg?branch=master" alt="Travis Build" />
-  </a>
-  <a href="https://github.com/abhijithvijayan/kutt-extension/releases/latest">
-    <img src="https://img.shields.io/github/release/abhijithvijayan/kutt-extension.svg?colorB=blue" alt="Releases" />
-  </a>
-  <a href="https://github.com/abhijithvijayan/kutt-extension/issues?q=is%3Aopen+is%3Aissue">
-    <img src="https://img.shields.io/github/issues-raw/abhijithvijayan/kutt-extension.svg?colorB=lightgrey" alt="Open Issues" />
-  </a>
-  <a href="https://github.com/abhijithvijayan/kutt-extension/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/abhijithvijayan/kutt-extension.svg?colorB=red" alt="Closed Issues" />
-  </a>
-  <a href="https://david-dm.org/abhijithvijayan/kutt-extension">
-    <img src="https://img.shields.io/david/abhijithvijayan/kutt-extension.svg?colorB=orange" alt="DEPENDENCIES" />
-  </a>
-  <a href="https://github.com/abhijithvijayan/kutt-extension/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/abhijithvijayan/kutt-extension.svg" alt="LICENSE" />
-  </a>
+
 </div>
 
 ## Features
@@ -34,21 +17,9 @@
 - Free and Open Source
 - Uses WebExtensions API
 
-## Browser Support
-
-| [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) | [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](https://addons.mozilla.org/firefox/addon/kutt/) | [![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)](CONTRIBUTING.md#for-opera-users) | [![Yandex](https://raw.github.com/alrra/browser-logos/master/src/yandex/yandex_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) | [![Brave](https://raw.github.com/alrra/browser-logos/master/src/brave/brave_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) | [![vivaldi](https://raw.github.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) |
-![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 49 & later ✔ | 52 & later ✔ | 36 & later ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔
 
 ## How to use
 
-- Download for browser(s)
-
-  - Chrome: [Kutt :: Chrome Web Store](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd)
-  - Firefox: [Kutt :: Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/kutt/)
-  - Opera [Kutt :: Opera addons](CONTRIBUTING.md#for-opera-users)
-  - Edge: [Kutt :: Chrome Web Store](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd)
 
 - Generate an API Key from <a href="https://kutt.it">`https://kutt.it/`</a> after signing up. (Settings page)
 
@@ -60,20 +31,7 @@
 
 ## Screenshots
 
-<div>
-  <img width="350" src="https://i.imgur.com/n44Eytz.gif" alt="image1" />
-  <img width="350" src="https://i.imgur.com/FJJ2FPU.gif" alt="image2" />
-</div>
-<p align="center">
-    <img width="500" src="https://i.imgur.com/mXqitkW.png" alt="image3" />
-</p>
-<p align="center">
-    <img width="500" src="https://i.imgur.com/tgLecm2.png" alt="image4" />
-</p>
-<p align="center">
-    <img width="500" src="https://i.imgur.com/kjHY6aa.png" alt="image5" />
-</p>
-<br />
+
 
 ## Note:
 
