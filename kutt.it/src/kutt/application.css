@@ -1,0 +1,37 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#copy
+{
+	-fx-background-image:url("../../assets/1.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center;
+	-fx-background-size:30px 30px;
+	-fx-background-radius:150;
+}
+
+#qr
+{
+	-fx-background-image:url("../../assets/3.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center;
+	-fx-background-size:40px 40px;
+	-fx-background-radius:150;
+}
+
+#exec
+{
+	-fx-background-image:url("../../assets/2.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:90% 50%;
+	-fx-background-size:35px 35px;
+	-fx-background-color: linear-gradient(to right, #3FA0F6,#2A7AFF);
+	-fx-background-radius:50px;
+}
+
+#set
+{
+	-fx-background-image:url("../../assets/4.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:10% 50%;
+	-fx-background-size:30px 30px;
+}

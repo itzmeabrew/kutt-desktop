@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="709.0" prefWidth="976.0" style="-fx-background-color: #F3F3F3;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kutt.MainController">
+   <children>
+      <Pane layoutX="20.0" layoutY="19.0" prefHeight="671.0" prefWidth="936.0" style="-fx-background-color: #F3F3F3;" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="19.0">
+         <children>
+            <TextField id="txt_link" fx:id="url" layoutX="82.0" layoutY="204.0" prefHeight="45.0" prefWidth="772.0" style="-fx-background-radius: 50;" stylesheets="@application.css">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" color="#00000058" height="47.21" radius="16.552500000000002" />
+               </effect>
+               <font>
+                  <Font name="Nunito Regular" size="14.0" />
+               </font></TextField>
+            <JFXButton id="exec" fx:id="btn_exec" defaultButton="true" layoutX="724.0" layoutY="270.0" onAction="#kutt_it" prefHeight="53.0" prefWidth="119.0" ripplerFill="#1365e8" stylesheets="@application.css" text="Kutt.it     " textFill="WHITE">
+               <font>
+                  <Font name="Nunito Regular" size="19.0" />
+               </font>
+            </JFXButton>
+            <Text layoutX="304.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kutt your links shorter" textOrigin="CENTER" wrappingWidth="319.2158203125" x="4.0">
+               <font>
+                  <Font name="Nunito Light" size="32.0" />
+               </font>
+            </Text>
+            <Text fx:id="rslt" focusTraversable="true" layoutX="95.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="356.4709167480469">
+               <font>
+                  <Font name="Nunito Regular" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="is_copy" fill="#08ba0b" layoutX="94.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="178.40000915527344">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <JFXButton id="copy" fx:id="copy" buttonType="RAISED" layoutX="482.0" layoutY="341.0" onAction="#copy_clip" prefHeight="40.0" prefWidth="43.0" stylesheets="@application.css" text=" " textAlignment="CENTER" wrapText="true">
+               <effect>
+                  <DropShadow />
+               </effect></JFXButton>
+            <Pane layoutX="-20.0" layoutY="489.0" prefHeight="200.0" prefWidth="995.0" style="-fx-background-color: #EAEAEA;" />
+            <Pane layoutX="-20.0" layoutY="598.0" prefHeight="92.0" prefWidth="992.0" style="-fx-background-color: #282828;">
+               <children>
+                  <JFXButton layoutX="37.0" layoutY="33.0" style="-fx-background-color: #EEEEEE;" text="Get extension for chrome" />
+                  <JFXButton layoutX="204.0" layoutY="34.0" style="-fx-background-color: #EEEEEE;" text="Get extension for firefox" />
+               </children></Pane>
+            <Pane layoutX="-20.0" layoutY="-19.0" prefHeight="70.0" prefWidth="976.0" style="-fx-background-color: #EAEAEA;">
+               <children>
+                  <Text fontSmoothingType="LCD" layoutX="82.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kutt.it" wrappingWidth="119.00000357627869">
+                     <font>
+                        <Font name="Nunito Bold" size="35.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="63.0" fitWidth="71.0" layoutX="16.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/favicon-196x196.png" />
+                     </image></ImageView>
+                  <JFXButton id="set" fx:id="setting" layoutX="697.0" layoutY="19.0" prefHeight="25.0" stylesheets="@application.css" text="         Settings">
+                     <font>
+                        <Font name="Nunito Regular" size="13.0" />
+                     </font></JFXButton>
+                  <JFXButton id="hst" fx:id="history" layoutX="837.0" layoutY="20.0" prefHeight="25.0" stylesheets="@application.css" text="History">
+                     <font>
+                        <Font size="13.0" />
+                     </font></JFXButton>
+               </children>
+            </Pane>
+            <JFXButton id="qr" fx:id="qr" buttonType="RAISED" layoutX="538.0" layoutY="343.0" prefHeight="40.0" prefWidth="43.0" stylesheets="@application.css" text=" " textAlignment="CENTER" wrapText="true">
+               <effect>
+                  <DropShadow color="#463535" />
+               </effect>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
