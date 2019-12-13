@@ -1,5 +1,6 @@
-<div align="center"><img width="150" src="src/assets/logo.png" /></div>
-<h1 align="center">kutt-desktop</h1>
+
+<div align="center"><img width="150" src="https://imgur.com/dk0StSP.png" /></div>
+<h1 align="center">kutt-desktop(alpha)</h1>
 <p align="center">Cross platform desktop app to shorten long URLs based on <a href="https://kutt.it">Kutt.it</a></p>
 
 <div align="center">
@@ -10,7 +11,7 @@
 
 - Minimal UI
 - Instant QR Code
-- Cross Browser Support
+- Cross Platform Support
 - Supports Secure Passwords for URLs
 - History & Incognito Feature
 - Auto Copy Feature
@@ -18,19 +19,22 @@
 - Uses WebExtensions API
 
 
-## How to use
+## How to use the desktop app
 
 
 - Generate an API Key from <a href="https://kutt.it">`https://kutt.it/`</a> after signing up. (Settings page)
 
   <img width="400" src="https://i.imgur.com/qQwqeH5.png" />
 
-- Paste and Save this `Key` in extension's `options page` when asked.
-
- <hr />
+- In order to use this app you need the latest Java Run Time Enviorment which is available for all platforms. Downlad it from <a href="https://www.oracle.com">`https://oracle.com/`</a>
+- After installing the JRE simply run the executable jar file
+- In the main screen simple put the url you want to shorten into the URL field and hit the "Kutt.it" button.The shortend link will be autmatically copied to your clipboard
+- The QR code will automatically generate a QR code for ur link that can be saved or shared
+- The project is still in alpha stage. More features coming soon.
+ <hr/>
 
 ## Screenshots
-
+ <img width="400" src="https://i.imgur.com/50TL8J4.png" />
 
 
 ## Note:
