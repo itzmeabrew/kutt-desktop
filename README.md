@@ -29,7 +29,7 @@
 - In order to use this app you need the latest Java Run Time Enviorment which is available for all platforms. Downlad it from <a href="https://www.oracle.com">`https://oracle.com/`</a>
 - After installing the JRE simply run the executable jar file
 - In the main screen simple put the url you want to shorten into the URL field and hit the "Kutt.it" button.The shortend link will be autmatically copied to your clipboard
-- The QR code will automatically generate a QR code for ur link that can be saved or shared
+- The QR code will automatically generate functionality is also included so that you can get a QR code for your link that can be saved or shared
 - The project is still in alpha stage. More features coming soon.
  <hr/>
 
