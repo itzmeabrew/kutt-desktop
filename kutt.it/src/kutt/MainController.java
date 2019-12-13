@@ -65,6 +65,7 @@ public class MainController implements Initializable
 			AnchorPane qr_code = (AnchorPane)FXMLLoader.load(getClass().getResource("qr_code.fxml"));
 			Scene scene = new Scene(qr_code,427,400);
 			stage.setScene(scene);
+			stage.setTitle("QR Generator");
 			stage.show();
 		}
 		catch (IOException e) 

@@ -20,7 +20,7 @@ public class qr_codeController implements Initializable
     
     private void qrcode()
     {
-    	Image im=new Image("https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=Example");
+    	Image im=new Image("https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=kuttit");
     	qr_image.setImage(im);
     }
 

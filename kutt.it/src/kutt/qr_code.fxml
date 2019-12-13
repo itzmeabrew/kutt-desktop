@@ -14,8 +14,8 @@
                <image>
                   <Image url="file:/E:/My_Library/Documents/Java/kutt.it/assets/qr_hndlr.png" />
                </image></ImageView>
-            <JFXButton layoutX="54.0" layoutY="342.0" prefHeight="44.0" prefWidth="125.0" style="-fx-background-color: #ff0000;" />
-            <JFXButton layoutX="250.0" layoutY="343.0" prefHeight="44.0" prefWidth="125.0" style="-fx-background-color: #00ff00;" />
+            <JFXButton fx:id="exit" layoutX="54.0" layoutY="342.0" prefHeight="44.0" prefWidth="125.0" style="-fx-background-color: #ff0000;" text="Exit" />
+            <JFXButton layoutX="250.0" layoutY="343.0" prefHeight="44.0" prefWidth="125.0" style="-fx-background-color: #00ff00;" text="Save" />
          </children>
       </Pane>
    </children>
