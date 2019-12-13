@@ -23,7 +23,7 @@
 	-fx-background-image:url("../../assets/2.png");
 	-fx-background-repeat:no-repeat;
 	-fx-background-position:90% 50%;
-	-fx-background-size:35px 35px;
+	-fx-background-size:25px 25px;
 	-fx-background-color: linear-gradient(to right, #3FA0F6,#2A7AFF);
 	-fx-background-radius:50px;
 }

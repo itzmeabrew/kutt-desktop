@@ -72,7 +72,7 @@
                      </font></JFXButton>
                </children>
             </Pane>
-            <JFXButton id="qr" fx:id="qr" buttonType="RAISED" layoutX="538.0" layoutY="343.0" prefHeight="40.0" prefWidth="43.0" stylesheets="@application.css" text=" " textAlignment="CENTER" wrapText="true">
+            <JFXButton id="qr" fx:id="qr" buttonType="RAISED" layoutX="538.0" layoutY="343.0" onAction="#qrcode" prefHeight="40.0" prefWidth="43.0" stylesheets="@application.css" text=" " textAlignment="CENTER" wrapText="true">
                <effect>
                   <DropShadow color="#463535" />
                </effect>
