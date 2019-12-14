@@ -16,7 +16,6 @@
 - History & Incognito Feature
 - Auto Copy Feature
 - Free and Open Source
-- Uses WebExtensions API
 
 
 ## How to use the desktop app
