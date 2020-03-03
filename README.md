@@ -1,6 +1,6 @@
 
 <div align="center"><img width="150" src="https://imgur.com/dk0StSP.png" /></div>
-<h1 align="center">kutt-desktop(alpha)</h1>
+<h1 align="center">kutt-desktop(🚧 alpha)</h1>
 <p align="center">Cross platform desktop app to shorten long URLs based on <a href="https://kutt.it">Kutt.it</a></p>
 
 <div align="center">
